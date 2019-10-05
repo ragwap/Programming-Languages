@@ -1,0 +1,18 @@
+        program fizzbuzz
+        integer i, rem
+        do i = 1, 100
+                if(mod(i,3) .EQ. 0) then
+                        write(*,*) 'Fizz'
+                elseif(mod(i,5) .EQ. 0) then
+                        write(*,*) 'Buzz'
+                elseif(mod(i,3) .EQ. 0 AND mod(i,5) .EQ. 0) then
+                        write(*,*) 'Fizz Buzz'
+                else
+                        write(*,*) i
+                endif
+                
+                 
+        continue
+        enddo
+        stop
+        end
